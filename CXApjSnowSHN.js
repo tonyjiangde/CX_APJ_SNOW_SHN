@@ -5,7 +5,7 @@
 // @match       https://sapexttest.service-now.com/now/workspace/*
 // @match       https://sap.service-now.com/now/workspace/*
 // @match       https://itsm.services.sap/now/workspace/*
-// @version     0.0.1
+// @version     0.0.2
 // @author      I314119
 // @description CX APJ ServiceNow Special Handling Notes
 //
@@ -20,6 +20,7 @@
 // @grant       GM_openInTab
 // @grant       GM_setClipboard
 //
+// @history     0.0.2   Release: 03.31.2023
 // @history     0.0.1   Release: 03.03.2023
 // ==/UserScript==
 /** Beginning of query-selector-shadow-dom code
