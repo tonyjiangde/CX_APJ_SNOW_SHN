@@ -403,7 +403,8 @@ function httpGet(theUrl)
             }
 
 }
-var customers = [{name:"Airbus Defence and Space GmbH", message:"中国同事请不要处理 Airbus Defence and Space GmbH 的ticket，如果已接请立即remove自己！！！ Colleagues in China, please don't handle ticket from Airbus Defence and Space GmbH, if you are assigned accidentlly, please remove yourself immediately!!!"}]
+var customers = [{name:"Airbus Defence and Space GmbH", message:"中国同事请不要处理 Airbus Defence and Space GmbH 的ticket，如果已接请立即remove自己！！！ Colleagues in China, please don't handle ticket from Airbus Defence and Space GmbH, if you are assigned accidentlly, please remove yourself immediately!!!"},
+                {name:"McKesson Corporation", message:"中国同事请不要处理 McKesson Corporation 的ticket，如果已接请立即remove自己！！！ McKesson Business Unit Norway (NMD) Only EU support ONLY EU case managers / support engineers are allowed to access customer systems and data."}]
 function synctemplates(){
             try{
                 let sph = httpGet('https://pages.github.tools.sap/I314119/CX_APJ_SNOW_SHN/SPH.json');
